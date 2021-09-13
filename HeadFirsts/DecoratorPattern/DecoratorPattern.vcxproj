@@ -20,16 +20,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="component\Beverage.cpp" />
-    <ClCompile Include="component\Expresso.cpp" />
+    <ClCompile Include="component\Espresso.cpp" />
+    <ClCompile Include="component\DarkRoast.cpp" />
     <ClCompile Include="decorator\CondimentDecorator.cpp" />
     <ClCompile Include="decorator\Milk.cpp" />
+    <ClCompile Include="decorator\Mocha.cpp" />
     <ClCompile Include="StarbuzzCoffee.cpp" />
+    <ClCompile Include="decorator\Whip.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="component\Beverage.h" />
-    <ClInclude Include="component\Expresso.h" />
+    <ClInclude Include="component\Espresso.h" />
+    <ClInclude Include="component\DarkRoast.h" />
     <ClInclude Include="decorator\CondimentDecorator.h" />
     <ClInclude Include="decorator\Milk.h" />
+    <ClInclude Include="decorator\Mocha.h" />
+    <ClInclude Include="decorator\Whip.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

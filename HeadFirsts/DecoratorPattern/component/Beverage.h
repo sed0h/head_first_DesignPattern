@@ -7,6 +7,6 @@ class Beverage {
 
  public:
   Beverage();
-  std::string getDescription();
-  virtual float cost()=0;
+  virtual std::string getDescription();
+  virtual double cost()=0;
 };

@@ -10,6 +10,6 @@ class Milk : public CondimentDecorator {
 
  public:
   Milk(Beverage *beverage);
-  float cost();
+  double cost();
   std::string getDescription();
 };

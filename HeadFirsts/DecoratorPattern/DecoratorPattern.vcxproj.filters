@@ -18,7 +18,7 @@
     <ClCompile Include="component\Beverage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="component\Expresso.cpp">
+    <ClCompile Include="component\Espresso.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="decorator\CondimentDecorator.cpp">
@@ -30,18 +30,36 @@
     <ClCompile Include="StarbuzzCoffee.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="decorator\Mocha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="component\DarkRoast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decorator\Whip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="component\Beverage.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="component\Expresso.h">
+    <ClInclude Include="component\Espresso.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="decorator\CondimentDecorator.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="decorator\Milk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="decorator\Mocha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="component\DarkRoast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="decorator\Whip.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
