@@ -13,5 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="d">
+      <UniqueIdentifier>{b34f0a8a-e9d3-4d9e-8b4c-eb0589e8e639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="o">
+      <UniqueIdentifier>{d4d3b635-5779-46d2-97e2-957f5991960c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="s">
+      <UniqueIdentifier>{6cb8d7e7-e82d-4578-909d-3f8e91ceb92e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d\DisplayElement.cpp">
+      <Filter>d</Filter>
+    </ClCompile>
+    <ClCompile Include="o\CurrentConditionsDisplay.cpp">
+      <Filter>o</Filter>
+    </ClCompile>
+    <ClCompile Include="o\ForecastDisplay.cpp">
+      <Filter>o</Filter>
+    </ClCompile>
+    <ClCompile Include="o\Observer.cpp">
+      <Filter>o</Filter>
+    </ClCompile>
+    <ClCompile Include="o\StatisticsDisplay.cpp">
+      <Filter>o</Filter>
+    </ClCompile>
+    <ClCompile Include="o\ThirdPartyDisplay.cpp">
+      <Filter>o</Filter>
+    </ClCompile>
+    <ClCompile Include="s\Subject.cpp">
+      <Filter>s</Filter>
+    </ClCompile>
+    <ClCompile Include="s\WeatherData.cpp">
+      <Filter>s</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherStation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d\DisplayElement.h">
+      <Filter>d</Filter>
+    </ClInclude>
+    <ClInclude Include="o\CurrentConditionsDisplay.h">
+      <Filter>o</Filter>
+    </ClInclude>
+    <ClInclude Include="o\ForecastDisplay.h">
+      <Filter>o</Filter>
+    </ClInclude>
+    <ClInclude Include="o\Observer.h">
+      <Filter>o</Filter>
+    </ClInclude>
+    <ClInclude Include="o\StatisticsDisplay.h">
+      <Filter>o</Filter>
+    </ClInclude>
+    <ClInclude Include="o\ThirdPartyDisplay.h">
+      <Filter>o</Filter>
+    </ClInclude>
+    <ClInclude Include="s\Subject.h">
+      <Filter>s</Filter>
+    </ClInclude>
+    <ClInclude Include="s\WeatherData.h">
+      <Filter>s</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

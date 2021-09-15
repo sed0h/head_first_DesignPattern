@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d\DisplayElement.cpp" />
+    <ClCompile Include="WeatherStation.cpp" />
+    <ClCompile Include="o\CurrentConditionsDisplay.cpp" />
+    <ClCompile Include="o\ForecastDisplay.cpp" />
+    <ClCompile Include="o\Observer.cpp" />
+    <ClCompile Include="o\StatisticsDisplay.cpp" />
+    <ClCompile Include="o\ThirdPartyDisplay.cpp" />
+    <ClCompile Include="s\Subject.cpp" />
+    <ClCompile Include="s\WeatherData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d\DisplayElement.h" />
+    <ClInclude Include="o\CurrentConditionsDisplay.h" />
+    <ClInclude Include="o\ForecastDisplay.h" />
+    <ClInclude Include="o\Observer.h" />
+    <ClInclude Include="o\StatisticsDisplay.h" />
+    <ClInclude Include="o\ThirdPartyDisplay.h" />
+    <ClInclude Include="s\Subject.h" />
+    <ClInclude Include="s\WeatherData.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

@@ -2,5 +2,5 @@
 #include "FlyBehavior.h"
 class FlyWithWings : public FlyBehavior {
  public:
-  void fly();
+  virtual void fly();
 };

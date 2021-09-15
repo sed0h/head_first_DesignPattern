@@ -1,9 +1,12 @@
 #pragma once
+
+class Observer;
+
 class Subject {
  public:
   Subject();
   virtual ~Subject();
-  virtual void registerObserver();
-  virtual void removeObserver();
-  virtual void notifyObserver();
+  virtual void registerObserver(Observer *o)=0;
+  virtual void removeObserver(Observer *o)=0;
+  virtual void notifyObserver()=0;
 };

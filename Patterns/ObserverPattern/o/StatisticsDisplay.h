@@ -1,9 +1,17 @@
 #pragma once
+#include "../d/DisplayElement.h"
 #include "Observer.h"
-#include "DisplayElement.h"
+#include <vector>
+class Subject;
 
 class StatisticsDisplay : public Observer, public DisplayElement {
+ private:
+  float _temperature;
+  Subject *_weatherData;
+  std::vector<float> _temperatures;
+
  public: 
-	void update();
+	StatisticsDisplay(Subject *WeatherData);
+	void update(float temperature);
 	void display();
 };
