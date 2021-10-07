@@ -12,6 +12,6 @@ class StatisticsDisplay : public Observer, public DisplayElement {
 
  public: 
 	StatisticsDisplay(Subject *WeatherData);
-	void update(float temperature);
+	void update(float temperature, float humidity, float pressure);
 	void display();
 };

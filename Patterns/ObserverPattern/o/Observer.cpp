@@ -4,4 +4,4 @@ Observer::Observer() {}
 
 Observer::~Observer() {}
 
-void Observer::update() {}
+void Observer::update(float temperature, float humidity, float pressure) {}

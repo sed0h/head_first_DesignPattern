@@ -7,9 +7,9 @@ class Observer;
 
 class WeatherData : public Subject {
  public:
-  virtual void registerObserver(Observer *o) ;
-  virtual void removeObserver(Observer *o) ;
-  virtual void notifyObserver() ;
+  virtual void registerObserver(Observer *o);
+  virtual void removeObserver(Observer *o);
+  virtual void notifyObservers();
   void getTemperature();
   void getHumiduty();
   void gePressure();

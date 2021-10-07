@@ -10,7 +10,7 @@ void WeatherData::getHumiduty() {}
 void WeatherData::gePressure() {}
 
 void WeatherData::measurementsChanged() { 
-    notifyObserver(); }
+    notifyObservers(); }
 
 void WeatherData::setMeasurements(float temperature, float humidity,
                                   float pressure) {
@@ -32,10 +32,10 @@ void WeatherData::removeObserver(Observer *o) {
   }
 }
 
-void WeatherData::notifyObserver() {
+void WeatherData::notifyObservers() {
   std::vector<Observer *>::iterator it = _observers.begin();
   for (; it != _observers.end(); ++it) {
-    (*it)->update();
+    (*it)->update(_temperature, _humidity, _pressure);
   }
    
 }

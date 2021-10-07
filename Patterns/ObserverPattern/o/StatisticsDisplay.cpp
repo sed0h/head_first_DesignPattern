@@ -9,7 +9,7 @@ StatisticsDisplay::StatisticsDisplay(Subject* WeatherData) {
   WeatherData->registerObserver(this);
 }
 
-void StatisticsDisplay::update(float temperature) {
+void StatisticsDisplay::update(float temperature, float humidity, float pressure) {
   this->_temperature = temperature;
   _temperatures.push_back(temperature);
   display();
@@ -18,7 +18,7 @@ void StatisticsDisplay::update(float temperature) {
 void StatisticsDisplay::display() {
   float max = 0;
   if (_temperatures.size() > 0) {
-    max = _temperatures.pop_back();
+    max = _temperatures.back();
   }
 
   for (std::vector<float>::iterator it = _temperatures.begin();
