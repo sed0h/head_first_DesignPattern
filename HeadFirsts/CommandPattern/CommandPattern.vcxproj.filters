@@ -27,6 +27,12 @@
     <ClInclude Include="SimpleRemoteControl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="GarageDoor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageDoorOpenCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Command.cpp">
@@ -42,6 +48,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SimpleRemoteControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageDoor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageDoorOpenCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
