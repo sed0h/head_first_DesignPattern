@@ -7,7 +7,7 @@
 
 int main() {
   Beverage *beverage = new Espresso();
-  std::cout << beverage->getDescription() << " $" << beverage->cost();
+  std::cout << beverage->getDescription() << " $" << beverage->cost() << "\n";
 
   Beverage *beverage2 = new DarkRoast();
   beverage2 = new Mocha(beverage2);
