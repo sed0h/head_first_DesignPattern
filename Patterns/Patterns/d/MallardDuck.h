@@ -4,5 +4,5 @@ class MallardDuck : public Duck {
  public:
   MallardDuck();
   ~MallardDuck();
-  void display();
+  virtual void display();
 };

@@ -18,32 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="d\DisplayElement.cpp" />
-    <ClCompile Include="WeatherStation.cpp" />
-    <ClCompile Include="o\CurrentConditionsDisplay.cpp" />
-    <ClCompile Include="o\ForecastDisplay.cpp" />
-    <ClCompile Include="o\Observer.cpp" />
-    <ClCompile Include="o\StatisticsDisplay.cpp" />
-    <ClCompile Include="o\ThirdPartyDisplay.cpp" />
-    <ClCompile Include="s\Subject.cpp" />
-    <ClCompile Include="s\WeatherData.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="d\DisplayElement.h" />
-    <ClInclude Include="o\CurrentConditionsDisplay.h" />
-    <ClInclude Include="o\ForecastDisplay.h" />
-    <ClInclude Include="o\Observer.h" />
-    <ClInclude Include="o\StatisticsDisplay.h" />
-    <ClInclude Include="o\ThirdPartyDisplay.h" />
-    <ClInclude Include="s\Subject.h" />
-    <ClInclude Include="s\WeatherData.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{24b594ce-851d-4270-8b53-7ec3ba4af3c2}</ProjectGuid>
-    <RootNamespace>ObserverPattern</RootNamespace>
+    <ProjectGuid>{03e0107b-697d-4e54-a8be-a83c64f53560}</ProjectGuid>
+    <RootNamespace>CommandPattern</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -159,6 +138,19 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightOnCommand.h" />
+    <ClInclude Include="SimpleRemoteControl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightOnCommand.cpp" />
+    <ClCompile Include="RemoteControlTest.cpp" />
+    <ClCompile Include="SimpleRemoteControl.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

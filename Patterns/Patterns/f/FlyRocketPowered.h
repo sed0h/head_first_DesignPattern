@@ -2,5 +2,5 @@
 #include "FlyBehavior.h"
 class FlyRocketPowered : public FlyBehavior {
  public:
-  void fly();
+  virtual void fly();
 };
