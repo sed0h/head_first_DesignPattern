@@ -1,4 +1,5 @@
 #include "PizzaStore.h"
+#include "Pizza.h"
 
 PizzaStore::PizzaStore() {
 
@@ -6,6 +7,13 @@ PizzaStore::PizzaStore() {
 
 PizzaStore::~PizzaStore() {}
 
-void PizzaStore::createPiza(std::string material) {}
+Pizza* PizzaStore::createPizza(std::string pizza_name) {
+  _pizza = new Pizza(pizza_name);
 
-void PizzaStore::orderPizza(std::string material) {}
+  return _pizza;
+}
+
+Pizza* PizzaStore::orderPizza(std::string pizza_name) {
+  return createPizza(pizza_name);
+}
+

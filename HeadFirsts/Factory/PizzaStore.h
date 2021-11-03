@@ -1,12 +1,14 @@
 #pragma once
 #include <iostream>
+class Pizza;
 
 class PizzaStore {
  public:
   PizzaStore();
   virtual ~PizzaStore();
-  virtual void createPiza(std::string material);
+  virtual Pizza* createPizza(std::string pizza_name);
   
 private:
-  void orderPizza(std::string material);
+  Pizza* orderPizza(std::string pizza_name);
+  Pizza *_pizza;
 };

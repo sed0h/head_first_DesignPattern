@@ -24,6 +24,12 @@
     <ClInclude Include="Pizza.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="NYStyleCheesePizza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoStyleCheesePizza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PizzaStore.cpp">
@@ -33,6 +39,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Pizza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NYStyleCheesePizza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoStyleCheesePizza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PizzaTestDrive.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,3 +1,5 @@
 #include "NYPizzaStore.h"
 
-void NYPizzaStore::createPizza() {}
+void NYPizzaStore::orderPizza() {
+
+}
