@@ -1,9 +1,10 @@
+
 #include "Light.h"
 #include "LightOnCommand.h"
 #include "SimpleRemoteControl.h"
 #include "GarageDoor.h"
 #include "GarageDoorOpenCommand.h"
-
+#if 0
 int main() {
   SimpleRemoteControl *remote = new SimpleRemoteControl();
   Light *light = new Light("a LIGHT");
@@ -20,3 +21,4 @@ int main() {
 
   return 0;
 }
+#endif

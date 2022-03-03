@@ -7,6 +7,6 @@ class SimpleRemoteControl {
   void setCommand(Command *command);
   void buttonWasPressed();
 
-  private:
+ private:
   Command *_slot;
 };

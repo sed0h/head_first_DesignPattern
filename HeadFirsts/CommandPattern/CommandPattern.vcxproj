@@ -144,6 +144,7 @@
     <ClInclude Include="GarageDoorOpenCommand.h" />
     <ClInclude Include="Light.h" />
     <ClInclude Include="LightOnCommand.h" />
+    <ClInclude Include="RemoteControl.h" />
     <ClInclude Include="SimpleRemoteControl.h" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +153,7 @@
     <ClCompile Include="GarageDoorOpenCommand.cpp" />
     <ClCompile Include="Light.cpp" />
     <ClCompile Include="LightOnCommand.cpp" />
+    <ClCompile Include="RemoteControl.cpp" />
     <ClCompile Include="RemoteControlTest.cpp" />
     <ClCompile Include="SimpleRemoteControl.cpp" />
   </ItemGroup>
