@@ -36,6 +36,18 @@
     <ClInclude Include="RemoteControl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LightOffCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stereo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoOffCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoOnWithCDCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Command.cpp">
@@ -60,6 +72,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RemoteControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LightOffCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stereo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoOffCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoOnWithCDCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

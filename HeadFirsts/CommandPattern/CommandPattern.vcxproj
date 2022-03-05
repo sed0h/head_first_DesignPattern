@@ -143,19 +143,27 @@
     <ClInclude Include="GarageDoor.h" />
     <ClInclude Include="GarageDoorOpenCommand.h" />
     <ClInclude Include="Light.h" />
+    <ClInclude Include="LightOffCommand.h" />
     <ClInclude Include="LightOnCommand.h" />
     <ClInclude Include="RemoteControl.h" />
     <ClInclude Include="SimpleRemoteControl.h" />
+    <ClInclude Include="Stereo.h" />
+    <ClInclude Include="StereoOffCommand.h" />
+    <ClInclude Include="StereoOnWithCDCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="GarageDoor.cpp" />
     <ClCompile Include="GarageDoorOpenCommand.cpp" />
     <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightOffCommand.cpp" />
     <ClCompile Include="LightOnCommand.cpp" />
     <ClCompile Include="RemoteControl.cpp" />
     <ClCompile Include="RemoteControlTest.cpp" />
     <ClCompile Include="SimpleRemoteControl.cpp" />
+    <ClCompile Include="Stereo.cpp" />
+    <ClCompile Include="StereoOffCommand.cpp" />
+    <ClCompile Include="StereoOnWithCDCommand.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
