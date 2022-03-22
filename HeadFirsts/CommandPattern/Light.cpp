@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-Light::Light(string light_name) { _name = light_name; }
+Light::Light(string light_name) { _location = light_name; }
 
-void Light::on() { std::cout << (_name + "light is on\n"); }
+void Light::on() { std::cout << (_location + " light is on\n"); }
 
-void Light::off() { std::cout << _name << "light is off\n"; }
+void Light::off() { std::cout << _location << " light is off\n"; }

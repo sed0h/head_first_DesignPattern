@@ -2,11 +2,11 @@
 #include <string>
 using std::string;
 
-class GarageDoor {
+class TV {
  public:
-  GarageDoor(string g_d);
-  void up();
-  void down();
+  TV(string location);
+  void on();
+  void off();
 
   private:
   string _location;

@@ -11,6 +11,6 @@ class Stereo {
   void setVolume(int v);
 
  private:
-  string _name;
+  string _location;
   int _volume;
 };

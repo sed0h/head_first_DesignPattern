@@ -2,14 +2,14 @@
 
 #include <iostream>
 
-Stereo::Stereo(string name) { _name = name; }
+Stereo::Stereo(string name) { _location = name; }
 
-void Stereo::on() { std::cout << (_name + "stereo is on\n"); }
+void Stereo::on() { std::cout << (_location + " stereo is on\n"); }
 
-void Stereo::off() { std::cout << (_name + "stereo is off\n"); }
+void Stereo::off() { std::cout << (_location + " stereo is off\n"); }
 
-void Stereo::setCD() { std::cout << (_name + "stereo is set for CD input\n"); }
+void Stereo::setCD() { std::cout << (_location + " stereo is set for CD input\n"); }
 
 void Stereo::setVolume(int v) {
-  std::cout << (_name + "stereo volume set to 11\n");
+  std::cout << (_location + " stereo volume set to ") << v << "\n";
 }

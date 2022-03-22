@@ -139,31 +139,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CeilingFan.h" />
+    <ClInclude Include="CeilingFanCommand.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="GarageDoor.h" />
-    <ClInclude Include="GarageDoorOpenCommand.h" />
+    <ClInclude Include="GarageDoorCommand.h" />
+    <ClInclude Include="Hottub.h" />
     <ClInclude Include="Light.h" />
-    <ClInclude Include="LightOffCommand.h" />
-    <ClInclude Include="LightOnCommand.h" />
+    <ClInclude Include="LightCommand.h" />
+    <ClInclude Include="MacroCommand.h" />
     <ClInclude Include="RemoteControl.h" />
     <ClInclude Include="SimpleRemoteControl.h" />
     <ClInclude Include="Stereo.h" />
-    <ClInclude Include="StereoOffCommand.h" />
-    <ClInclude Include="StereoOnWithCDCommand.h" />
+    <ClInclude Include="StereoCommand.h" />
+    <ClInclude Include="TV.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CeilingFan.cpp" />
+    <ClCompile Include="CeilingFanCommand.cpp" />
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="GarageDoor.cpp" />
-    <ClCompile Include="GarageDoorOpenCommand.cpp" />
+    <ClCompile Include="GarageDoorCommand.cpp" />
+    <ClCompile Include="Hottub.cpp" />
     <ClCompile Include="Light.cpp" />
-    <ClCompile Include="LightOffCommand.cpp" />
-    <ClCompile Include="LightOnCommand.cpp" />
+    <ClCompile Include="LightCommand.cpp" />
+    <ClCompile Include="MacroCommand.cpp" />
     <ClCompile Include="RemoteControl.cpp" />
     <ClCompile Include="RemoteControlTest.cpp" />
+    <ClCompile Include="RemoteLoader.cpp" />
     <ClCompile Include="SimpleRemoteControl.cpp" />
     <ClCompile Include="Stereo.cpp" />
-    <ClCompile Include="StereoOffCommand.cpp" />
-    <ClCompile Include="StereoOnWithCDCommand.cpp" />
+    <ClCompile Include="StereoCommand.cpp" />
+    <ClCompile Include="TV.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

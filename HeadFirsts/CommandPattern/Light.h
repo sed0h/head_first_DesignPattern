@@ -9,5 +9,5 @@ class Light {
   void off();
 
  private:
-  string _name;
+  string _location;
 };

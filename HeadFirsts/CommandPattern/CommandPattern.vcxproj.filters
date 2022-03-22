@@ -18,7 +18,7 @@
     <ClInclude Include="Command.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LightOnCommand.h">
+    <ClInclude Include="LightCommand.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Light.h">
@@ -30,22 +30,31 @@
     <ClInclude Include="GarageDoor.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GarageDoorOpenCommand.h">
+    <ClInclude Include="GarageDoorCommand.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RemoteControl.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LightOffCommand.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Stereo.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="StereoOffCommand.h">
+    <ClInclude Include="StereoCommand.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="StereoOnWithCDCommand.h">
+    <ClInclude Include="CeilingFan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CeilingFanCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Hottub.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,7 +65,7 @@
     <ClCompile Include="RemoteControlTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LightOnCommand.cpp">
+    <ClCompile Include="LightCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Light.cpp">
@@ -68,22 +77,34 @@
     <ClCompile Include="GarageDoor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GarageDoorOpenCommand.cpp">
+    <ClCompile Include="GarageDoorCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RemoteControl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LightOffCommand.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Stereo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="StereoOffCommand.cpp">
+    <ClCompile Include="StereoCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="StereoOnWithCDCommand.cpp">
+    <ClCompile Include="RemoteLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CeilingFan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CeilingFanCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TV.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hottub.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

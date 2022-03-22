@@ -1,9 +1,9 @@
 
 #include "Light.h"
-#include "LightOnCommand.h"
+#include "LightCommand.h"
 #include "SimpleRemoteControl.h"
 #include "GarageDoor.h"
-#include "GarageDoorOpenCommand.h"
+#include "GarageDoorCommand.h"
 #if 0
 int main() {
   SimpleRemoteControl *remote = new SimpleRemoteControl();
